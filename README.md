@@ -1,6 +1,5 @@
 # Sleep Health Analysis
 
-> Predicting and analyzing sleep quality based on lifestyle and health metrics.
 
 ---
 
