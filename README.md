@@ -15,6 +15,7 @@
   - [Exploratory Data Analysis (Explore)](#exploratory-data-analysis-explore)
   - [Data Modeling](#data-modeling)
 - [Results and Model Evaluation](#results-and-model-evaluation)
+- [How to Run](#how-to-run)
 - [References](#references)
 
 ---
@@ -104,6 +105,31 @@ We used the following regression models to predict sleep quality:
 - Feature importance analysis identified key predictors like **stress level**, **BMI category**, and **physical activity**.
 - Residual plots showed minimal prediction errors.
 - Hyperparameter tuning improved model generalization.
+
+---
+
+## How to Run
+
+1. Clone this repository to your local machine:
+
+    ```bash
+    git clone https://github.com/ngzhiwei517/Sleep-Health-Analysis.git
+    cd Sleep-Health-Analysis
+    ```
+
+2. Install required dependencies (assuming you have Python and pip installed):
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Open the Jupyter notebook (`sleep_health_analysis.ipynb`) in Google Colab or any Jupyter notebook environment.
+
+4. Follow the instructions within the notebook to:
+    - Load the dataset
+    - Preprocess the data
+    - Train various machine learning models
+    - Evaluate model performance
 
 ---
 
